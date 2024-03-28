@@ -101,7 +101,7 @@ main {
     text-align: center;
     outline: none;
     padding-block: 0.4rem;
-    border: 0.3125rem;
+    border-radius: 0.3125rem;
     background-color: var(--green-800);
     color: var(--white);
 }
@@ -117,7 +117,7 @@ main {
     cursor: pointer;
 }
 
-.grojeta #outra {
+.gorjeta #outra {
     width: 100%;
     background-color: var(--green-100);
     color: var(--green-800);
@@ -197,12 +197,12 @@ main {
     display: none;
 }
 
-@media(main-width: 920px) {
+@media(min-width: 920px) {
 
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100svh;
+    min-height: 100vh;
     justify-content: center;
     gap: 5rem;
     }
